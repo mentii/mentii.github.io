@@ -1,0 +1,22 @@
+body {
+  padding-top: 70px;
+  background: linear-gradient(
+      rgba(160, 201, 160, 0.2),
+      rgba(160, 201, 160, 0.2)
+    ), url(images/background.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-default .navbar-brand {
+  /*TODO: set this color as the brand-primary color*/
+  color: rgb(160, 201, 160);
+}
+
+.header {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
