@@ -1,17 +1,29 @@
 body {
   padding-top: 70px;
   background: linear-gradient(
-      rgba(160, 201, 160, 0.2),
-      rgba(160, 201, 160, 0.2)
+      rgba(81, 144, 81, 0.2),
+      rgba(81, 144, 81, 0.2)
     ), url(images/background.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar-default .navbar-brand {
   /*TODO: set this color as the brand-primary color*/
+  color: rgb(160, 201, 160);
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:hover:active,
+.navbar-default .navbar-brand:hover:visited,
+.navbar-default .navbar-brand:hover:link {
+  /*TODO: set this color as the brand-primary color*/
+  color: rgb(160, 201, 160);
+}
+
+.navbar-default .navbar-nav>li>a:hover {
   color: rgb(160, 201, 160);
 }
 
@@ -19,4 +31,21 @@ body {
   margin: 0 auto;
   text-align: center;
   color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.raleway-font {
+  font-family: 'Raleway', sans-serif;
+}
+
+.open-sans-font {
+  font-family: 'Open Sans', sans-serif;
 }
